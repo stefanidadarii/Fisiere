@@ -1,4 +1,4 @@
-with open('c:/Users/User/Desktop/Lista Clasei 11A.txt', 'r', encoding='utf-8') as f:
+with open('c:/Users/User/Desktop/Lista Clasei 11A.txt', 'r') as f:
     elevi=list(f)
 n=media=0
 print('Nume','Prenume','Nota','Limba',sep='\t')
