@@ -2,8 +2,8 @@ with open('c:/Users/User/Desktop/Lista Clasei 11A.txt', 'r') as f:
     elevi=list(f)
 n=media=0
 print('Nume','Prenume','Nota','Limba',sep='\t')
-a=open('c:/Users/User/Desktop/Elevii_Ce_Studiaza_LimbaEngleza.txt', 'w', encoding='utf-8')
-b=open('c:/Users/User/Desktop/Elevii_Ce_Studiaza_LimbaGermana.txt', 'w', encoding='utf-8')
+a=open('c:/Users/User/Desktop/Elevii_Ce_Studiaza_LimbaEngleza.txt', 'w')
+b=open('c:/Users/User/Desktop/Elevii_Ce_Studiaza_LimbaGermana.txt', 'w')
 for i in elevi:
     elev = i.split()
     nota=int(elev[2])
